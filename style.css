@@ -1,0 +1,128 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0 0 0 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.screen{
+  height: 100vh;
+  width: 100%;
+  background-color: hsla(233, 33%, 20%, 1);
+}
+
+.table{
+  height: 75vh ;
+  width: 50vw;
+  position: absolute;
+  left: 25vw;
+  border: 1vw solid hsla(59, 100%, 51%, 1);
+}
+
+#maintable {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  border: 1vw dotted white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#maintabletxt{
+  display: flex;
+  height: 98%;
+  width: 99%;
+  color:black;
+  font-size: 2.5vw;
+  font-weight: 700;
+  text-align: center;
+  border: 0.1vw solid yellow;
+  transition: 10s;
+  justify-content:center;
+  align-content: center;
+  text-align: center;
+}
+
+#maintabletxt:hover {
+  filter: invert();
+}
+
+
+.buttonbox{
+  height:10vw;
+  width: 50vw;
+  left: 25vw;
+  position: absolute;
+  top: 79vh;
+  border: 0.1vw solid transparent;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inputtable{
+  height:8vw;
+  width: 16vw;
+  background-color: hsla(59, 100%, 51%, 1);
+  border-radius:15vw;
+  box-shadow: 0 0 0vw 0.4vw hsla(100, 100%, 51%, 1);
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 6vw;
+}
+
+.buttonbox .buttonleft{
+  width: 15vw;
+  height: 8vw;
+  border-radius: 15vw;
+  background-color: transparent;
+  border: none;
+}
+
+.buttonbox .buttonright{
+  width: 15vw;
+  height: 8vw;
+  border-radius: 15vw;
+  background-color: transparent;
+  border: none;
+}
+
+
+.buttonbox i {
+  color:#ebff57;
+  font-size: 7vw;
+  background-color: rgb(168, 65, 1);
+  border-radius: 5vw;
+  transition: 1s;
+  transition-timing-function: ease-in-out;
+}
+
+ .buttonbox i:hover {
+  color:#098a14;
+  font-size: 10vw;
+  background-color: white;
+  border-radius: 5vw;
+  rotate: -360deg;
+}
+
+
+
+#iptbltext{
+  height: 100%;
+  width: 100%;
+  color: black;
+  font-size: 7vw;
+  border-radius:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: transparent;
+  border:none;
+  outline: none;
+}
