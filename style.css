@@ -126,3 +126,166 @@
   border:none;
   outline: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 476px)
+{
+  
+*{
+  box-sizing: border-box;
+  margin: 0 0 0 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@keyframes screen {
+  0% { background-image: linear-gradient(45deg, rgb(9, 16, 62) 15%, rgb(7, 19, 100)50%, rgb(29, 34, 152)40%, rgb(33, 71, 161)70%, rgb(69, 113, 235)60%)}
+
+  25% { background-image: linear-gradient(135deg, rgb(9, 16, 62) 15%, rgb(7, 19, 100)50%, rgb(29, 34, 152)40%, rgb(33, 71, 161)70%, rgb(69, 113, 235)60%) }
+
+  50% { background-image: linear-gradient(225deg, rgb(9, 16, 62) 15%, rgb(7, 19, 100)50%, rgb(29, 34, 152)40%, rgb(33, 71, 161)70%, rgb(69, 113, 235)60%) }
+
+  75% { background-image: linear-gradient(315deg, rgb(9, 16, 62) 15%, rgb(7, 19, 100)50%, rgb(29, 34, 152)40%, rgb(33, 71, 161)70%, rgb(69, 113, 235)60%) }
+
+  100% { background-image: linear-gradient(405deg, rgb(9, 16, 62)15%,rgb(7, 19, 100)50%, rgb(29, 34, 152)40%, rgb(33, 71, 161)70%, rgb(69, 113, 235) 60%) }
+}
+
+.screen{
+  height: 100vh;
+  width: 100%;
+  background-image: repeating-linear-gradient(45deg, rgb(9, 16, 62) 10%, rgb(7, 19, 100), rgb(29, 34, 152), rgb(33, 71, 161), rgb(69, 113, 235));
+  animation: screen 10s ease-in-out infinite;
+}
+
+.table{
+  height: 120vw;
+  width: 90vw;
+  position: absolute;
+  left: 5vw;
+  top: 5vw;
+  border: 1vw solid transparent;
+}
+
+#maintable {
+  margin: auto;
+  height: 96%;
+  width: 96%;
+  border: 1vw dotted white;
+  display: flex;
+  margin-top: 2vw;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#maintabletxt{
+  display: flex;
+  height: 98%;
+  width: 99%;
+  color:rgb(255, 255, 255);
+  font-size: 8vw;
+  font-weight: 700;
+  text-align: center;
+  border: 0.1vw solid transparent;
+  background-color: transparent;
+  justify-content:center;
+  align-content: center;
+  text-align: center;
+}
+
+
+.buttonbox{
+  height:20vw;
+  width: 90vw;
+  left: 5vw;
+  position: absolute;
+  top: 79vh;
+  border: 0.1vw solid transparent;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inputtable{
+  height:25vw;
+  width: 25vw;
+  background-color: hsla(59, 100%, 51%, 1);
+  border-radius:12.5vw;
+  box-shadow: 0 0 0vw 0.4vw hsla(100, 100%, 51%, 1);
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 6vw;
+}
+
+.buttonbox .buttonleft{
+  width: 25vw;
+  height: 25vw;
+  border-radius: 15vw;
+  background-color: white;
+  border: none;
+}
+
+.buttonbox .buttonright{
+  width: 25vw;
+  height: 25vw;
+  border-radius: 15vw;
+  background-color: white;
+  border: none;
+}
+
+
+.buttonbox i {
+  color:#ebff57;
+  font-size: 25vw;
+  background-color: rgb(168, 65, 1);
+  border-radius: 12.5vw;
+  transition: 1s;
+  transition-timing-function: ease-in-out;
+}
+
+ .buttonbox i:hover {
+  color:#098a14;
+  font-size: 25vw;
+  border-radius: 12.5vw;
+  background-color: white;
+  rotate: -360deg;
+}
+
+
+
+#iptbltext{
+  height: 100%;
+  width: 100%;
+  color: black;
+  font-size: 11vw;
+  border-radius:50%;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: transparent;
+  border:none;
+  outline: none;
+}
+}
